@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CityGrid</title>
+<link href="site.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+</html>
+
+<body>
+
+<!-- Begin Header -->
+<div id='places_header'>
+	<div class='header_wrap'>
+		<div class='logo'>
+			<a href='/'>
+				<!-- Put Logo If You Use-->
+			</a>
+		</div>
+		<div class='header_info left'>
+			<form action="#" method="post">
+				<input class='search_input' id='what' name='what' title='What' type='text' value='Coffee'>
+				<input class='search_input' id='where' name='where' title='Where' type='text' value='West Hollywood, Or'>
+				<input id='find_btn' type='submit' value='Search'>
+			</form>
+		</div>
+		<div class='places_header_left'></div>
+		<div class='places_header_right'></div>
+	</div>
+</div>
+<!-- End Header -->
+
+<div id='places_container'>
+	<div id='main_wrap'>
+		<div class='posts'>
+		
+			<div class='searching'>
+				Searching for
+				<a href="listing.html">
+					<strong>
+						Coffee
+					</strong>
+				</a>
+				in
+				<a href="listing.html">
+					<strong>
+						West Hollywood, CA
+					</strong>
+				</a>
+			</div>
+			
+			<div class='clear'></div>
+			<div class='suggestion_spacer'></div>
+					
+			<!-- Beginning Places Detail --->
+			<div id='place_header'>
+				<div class='big_photo'>
+					<a alt='[Name]' href='store-front.jpg'>
+						<img src='store-front.jpg'>
+					</a>
+				</div>
+				
+				<div class='info'>
+					<table>
+						<tr>
+							<td>
+								<h2>
+									Business Name
+								</h2>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class='address'>
+									<p>123 There Street<br />West Hollywood, CA 95555</p>
+									<p>1 (555) 555-5555</p>
+									<p>
+										<a href='[URL]' title='[Title]'>
+											Go to website >>
+										</a>
+									</p>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+				
+				<div class='gallery'>
+					<ul>
+						<li>
+							<a class='colorbox' href='store-front.jpg'>
+								<img src='store-front.jpg'>
+							</a>
+						</li>
+						<li>
+							<a class='colorbox' href='retail-image-1.png'>
+								<img src='retail-image-1.png'>
+							</a>
+						</li>
+						<li>
+							<a class='colorbox' href='retail-image-2.png'>
+								<img src='retail-image-2.png'>
+							</a>
+						</li>					
+					</ul>
+				</div>
+				
+				<div class='clear'></div>
+				<div class='suggestion_spacer'></div>
+				<div class='clear'></div>
+				
+			</div>
+			
+			<div class='place_wrap'>
+				<div class='left_col'>
+					<div class='stars'>
+						<div class='star_container_large'>
+							<div class='star_bg'></div>
+							<div class='star_overlay' style='width: 80%'></div>
+						</div>
+					</div>
+					<div class='clear'></div>
+					<p>
+						20 reviews
+					</p>
+					<div class='light_btn'>
+						<a href='[url]'>
+							Link
+						</a>
+					</div>
+					<div class='clear'></div>
+					<p class='title'>
+						Information
+					</p>
+					<ul>
+						<li>
+							Tag, Tag, Tag, Tag
+						</li>
+						<li>
+							Hours: <br/> 9:00 AM to 5:00 PM Monday - Friday
+						</li>
+					</ul>
+				</div>
+				<div class='place_info'>
+					<p class='title'>About</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non augue lorem, tempus elementum tortor. Quisque iaculis felis id mi accumsan commodo. Praesent mi quam, euismod in viverra a, malesuada molestie ligula. Nulla rhoncus imperdiet fringilla. Pellentesque vehicula quam id erat tempus tincidunt vehicula erat egestas. Ut vitae fringilla tellus. Fusce viverra neque porttitor turpis tincidunt semper. Ut quam odio, congue et lobortis malesuada, viverra sed lorem. Integer et felis luctus nulla eleifend ornare. Aenean at justo lorem. Mauris elementum tempus ipsum, et sodales felis porta ac. Ut et massa lectus, id pretium ante. Suspendisse malesuada feugiat diam ut lacinia. Aenean purus justo, venenatis in interdum sit amet, placerat sed odio.</p>
+					<p>Proin orci urna, aliquam id varius nec, vulputate commodo diam. Vivamus mattis vestibulum arcu. Sed eget elit orci, eu aliquet nulla. Mauris aliquet dolor ut sapien semper quis egestas turpis mollis. Nunc nibh elit, interdum ac dictum et, ultrices a elit. Etiam nulla nunc, placerat a rutrum id, interdum a tortor. Mauris a massa ligula. Aenean ultricies sodales enim ac elementum. </p>
+					<p class='title'>Reviews</p>
+					
+					<!--Begin Reviews-->
+					<ul>
+					
+						<li>
+							<div class='right'>
+								<div class='stars'>
+									<div class='star_container'>
+										<div class='star_bg'></div>
+										<div class='star_overlay' style='width: 20%'></div>
+									</div>
+								</div>
+							</div>
+							<div class='review'>
+								By User Name about 1 years ago on
+								<a class='review_source' href='[review source url]'>
+									Review Title
+								</a>
+								<p class='review_text'>
+									Proin orci urna, aliquam id varius nec, vulputate commodo diam. Vivamus mattis vestibulum arcu. Sed eget elit orci, eu aliquet nulla. Mauris aliquet dolor ut sapien semper quis egestas turpis mollis. Nunc nibh elit, interdum ac dictum et, ultrices a elit. Etiam nulla nunc, placerat a rutrum id, interdum a tortor. Mauris a massa ligula. Aenean ultricies sodales enim ac elementum. 
+									<a href='[review source url]'>
+										Read more >>
+									</a>
+								</p>
+							</div>
+							<div class='suggestion_spacer'></div>
+						</li>
+						
+						<li>
+							<div class='right'>
+								<div class='stars'>
+									<div class='star_container'>
+										<div class='star_bg'></div>
+										<div class='star_overlay' style='width: 20%'></div>
+									</div>
+								</div>
+							</div>
+							<div class='review'>
+								By User Name about 1 years ago on
+								<a class='review_source' href='[review source url]'>
+									Review Title
+								</a>
+								<p class='review_text'>
+									Proin orci urna, aliquam id varius nec, vulputate commodo diam. Vivamus mattis vestibulum arcu. Sed eget elit orci, eu aliquet nulla. Mauris aliquet dolor ut sapien semper quis egestas turpis mollis. Nunc nibh elit, interdum ac dictum et, ultrices a elit. Etiam nulla nunc, placerat a rutrum id, interdum a tortor. Mauris a massa ligula. Aenean ultricies sodales enim ac elementum. 
+									<a href='[review source url]'>
+										Read more >>
+									</a>
+								</p>
+							</div>
+							<div class='suggestion_spacer'></div>
+						</li>
+						
+					</ul>
+					<!--End Reviews-->
+					
+				</div>
+			</div>
+		</div>
+		<!-- End Places Detail --->
+		
+		<div class='clear'></div>
+	</div>
+</div>
+
+<!-- Begin Footer -->
+<div id='footer'>
+	<div id='footer_wrap'>
+		<div id='fmenu'>
+			
+		</div>
+		<div class='clear'></div>
+	</div>
+</div>
+<br />
+<!-- End Footer -->
+
+</body>

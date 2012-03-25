@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CityGrid</title>
+<link href="site.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+</html>
+
+<body>
+
+<!-- Begin Header -->
+<div id='places_header'>
+	<div class='header_wrap'>
+		<div class='logo'>
+			<a href='/'>
+				<!-- Put Logo If You Use-->
+			</a>
+		</div>
+		<div class='header_info left'>
+			<form action="#" method="post">
+				<input class='search_input' id='what' name='what' title='What' type='text' value='Coffee'>
+				<input class='search_input' id='where' name='where' title='Where' type='text' value='West Hollywood, Or'>
+				<input id='find_btn' type='submit' value='Search'>
+			</form>
+		</div>
+		<div class='places_header_left'></div>
+		<div class='places_header_right'></div>
+	</div>
+</div>
+<!-- End Header -->
+
+<div id='places_container'>
+	<div id='main_wrap'>
+		<div class='posts'>
+
+			<div class='searching'>
+				Searching for
+				<a href="listing.html">
+					<strong>
+						Coffee
+					</strong>
+				</a>
+				in
+				<a href="listing.html">
+					<strong>
+						West Hollywood, CA
+					</strong>
+				</a>
+			</div>
+
+			<div class='attribution'>
+				<span>
+					powered by
+				</span>
+				<img src='citygrid_logo_black.png'>
+			</div>
+			
+			<div class='clear'></div>
+			<div class='suggestion_spacer'></div>
+			
+			<!--Begin Each Place Listing--->
+			<div class='place'>
+				<div class='thumbnail'>
+					<img border='0' src='store-front.jpg'>
+				</div>
+				<div class='place_info'>
+					<h2>
+						<a href='detail.html'>
+							Place Name
+						</a>
+					</h2>
+					<p class='address'>
+						123 There Street West Hollywood, CA 95555
+					</p>
+					<p>
+ 						Tags, Tags, Tags, Tags
+					</p>
+				</div>
+				<div class='rating'>
+					<div class='stars'>
+						<div class='star_container_large'>
+							<div class='star_bg'></div>
+							<div class='star_overlay' style='width: 80.0%'></div>
+						</div>
+					</div>
+					<div class='clear'></div>
+					<div class='reviews'>
+						20
+						reviews
+					</div>
+				</div>
+				<div class='clear'></div>
+				<div class='suggestion_spacer'></div>
+			</div>
+			<!--End Each Place Listing--->
+			
+		</div>
+		
+		<div class='clear'></div>
+		<div id='show_more'>
+			<a href='#'>Show more</a>
+		</div>
+	</div>
+</div>
+
+<!-- Begin Footer -->
+<div id='footer'>
+	<div id='footer_wrap'>
+		<div id='fmenu'>
+			
+		</div>
+		<div class='clear'></div>
+	</div>
+</div>
+<br />
+<!-- End Footer -->
+
+</body>
